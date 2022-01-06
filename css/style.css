@@ -1,0 +1,188 @@
+/* ========== Reset Code ========== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ========== Reset Code ========== */
+#stay_focused{
+    display: flex;
+}
+.focused {
+    width: 520px;
+    margin: 76px auto auto 180px;
+}
+.focused img {
+    width: 520px;
+    position: relative;
+    top: -147px;
+    right: -83px;
+}
+.focused h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.focused h1 span{
+    color: orange;
+}
+.focused p{
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.focused small{
+    display: block;
+    margin-top: 20px;
+}
+.button{
+    background-color: tomato;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.button:hover{
+    background-image: linear-gradient(rgb(250, 143, 124), rgb(224, 146, 0));
+    /* letter-spacing: 1px; */
+    font-weight: 700;
+}
+
+/* ========== my mission section starts ========== */
+#my_mission h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#my_mission span{
+    color: orange;
+}
+.my_mission{
+    display: flex;
+}
+.my_mission .card{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.my_mission .bg_color_one{
+    background-color: rgb(240, 209, 204);
+}
+.my_mission .bg_color_two{
+    background-color: rgb(240, 185, 176);
+}
+.my_mission .bg_color_three{
+    background-color: rgb(248, 146, 131);
+}
+.my_mission .card img{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.my_mission .card h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.my_mission .card p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* ========== developer section starts ========== */
+.develop{
+    margin-top: 30px;
+    display: flex;
+}
+.develop img{
+    width: 80%;
+    margin-left: 100px;
+}
+.develop .title{
+    margin: 100px 20px ;
+}
+.develop .title h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.develop .title p{
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+/* .develop .title a{
+    
+} */
+
+/* ========== community section starts ========== */
+.community{
+    display: flex;
+    background-image: url(../img/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: 48ch;
+}
+.community .title_two{
+    width: 50%;
+}
+.community .title_letter {
+    margin: 110px 35px 21px 91px;
+}
+.community .title_two h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.community .title_two p{
+    font-size: 16px ;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.community img {
+    width: 60%;
+    right: -218px;
+    position: relative;
+}
+
+/* ========== corona section starts ========== */
+#corona h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#corona span{
+    color: orange;
+}
+.corona_info{
+    width: 50%;
+    margin: 30px;
+}
+.corona_info ul li{
+    list-style: none;
+}
+.corona_info ul li a{
+    text-decoration: none;
+    line-height: 2;
+    margin: 30px;
+}
+#corona .corona_text {
+    width: 48%;
+    right: -93px;
+    top: 2531px;
+    position: absolute;
+    padding: -41px;
+}
+#corona .corona_text h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+#corona .corona_text p{
+    width: 700px;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
